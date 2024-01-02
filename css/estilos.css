@@ -1,0 +1,103 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    max-width: 340px;
+    margin: 0 auto;
+}
+.container-calculator{
+    background-color: #272B40;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.container-menu{
+    display: flex;
+    justify-content: end;
+}
+.header-container{
+    height: 30vh;
+    border-radius: 5px;
+    font-size: 60px;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+
+
+.result{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 60px;
+    color: #fff;
+}
+
+.links{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    padding-top: 20px;
+}
+
+.link a {
+    color: #fff;
+}
+.header-container-fa{
+    width: 100%;
+    background-color: #111626;
+}
+.header-content{
+    height: 70vh;
+    border-radius: 0px 0px 5px 5px;
+    width: 100%;
+}
+
+.buttons-operations{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    text-align: center;
+    padding: 70px 5px;
+    row-gap: 35px;
+}
+
+.cta-general{
+    padding: 15px 0px;
+    color: #fff;
+    width: 100%;
+    font-size: 18px;
+}
+
+.pad{
+    font-size: 22px;
+}
+
+
+.operations{
+    background-color: #272B40;
+    border-radius: 8px;
+    color: #34D907;
+    
+}
+
+.numers{
+    font-size: 22px;
+}
+
+.cta-operations{
+    color: #fff;
+    background-color: #34D907;
+    border-radius: 8px;
+}
